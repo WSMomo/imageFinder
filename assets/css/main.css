@@ -1,0 +1,108 @@
+#search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 30vh;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+form {
+  background-color: #FFF;
+  padding: 10px 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+form input, form button {
+  min-width: fit-content;
+  min-height: fit-content;
+  max-width: 400px;
+  padding: 10px;
+  border: none;
+}
+form button {
+  background-color: #27353E;
+  color: #FFF;
+  cursor: pointer;
+}
+form button:hover {
+  opacity: 0.75;
+}
+form input:focus {
+  outline: none;
+}
+
+#images-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+#images-container div a {
+  max-width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #FFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease-in-out;
+}
+#images-container div a img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 400px;
+  transition: transform 0.3s ease-in-out;
+}
+#images-container div a p {
+  width: 100%;
+  word-wrap: break-word;
+  padding-top: 10px;
+}
+#images-container div a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#show-more {
+  margin-bottom: 20px;
+  background-color: #FFF;
+  min-width: fit-content;
+  width: 150px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
+#show-more:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #FFF;
+}
+
+#error-message {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #27353E;
+  color: #C1EAF1;
+  width: 100vw;
+}/*# sourceMappingURL=main.css.map */
