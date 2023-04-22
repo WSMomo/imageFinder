@@ -50,6 +50,7 @@ header div h1 {
   justify-content: end;
   align-items: center;
   height: 30vh;
+  gap: 20px;
   margin-bottom: 40px;
 }
 
