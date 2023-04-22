@@ -1,10 +1,55 @@
+/* header */
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  width: 100%;
+  background-color: #27353E;
+  padding-bottom: 10px;
+  top: 0;
+  justify-content: space-between;
+  z-index: 1;
+}
+header div h1 {
+  color: white;
+  padding: 0 10px;
+  font-size: 0.9em;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 19px;
+}
+
+.icons {
+  margin-top: 10px;
+  height: 90%;
+  border-radius: 10%;
+  border: none;
+}
+
+.icons:hover {
+  scale: 1.1;
+}
+
 #search-section {
   display: flex;
   flex-direction: column;
   justify-content: end;
   align-items: center;
   height: 30vh;
-  gap: 20px;
   margin-bottom: 40px;
 }
 
@@ -35,9 +80,15 @@ form input:focus {
 #images-container {
   width: 100%;
   display: grid;
+  align-content: center;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
-  padding: 20px;
+}
+#images-container div {
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 #images-container div a {
   max-width: 400px;
@@ -54,7 +105,6 @@ form input:focus {
 #images-container div a img {
   object-fit: cover;
   width: 100%;
-  max-width: 400px;
   transition: transform 0.3s ease-in-out;
 }
 #images-container div a p {
@@ -67,7 +117,7 @@ form input:focus {
 }
 
 #show-more {
-  margin-bottom: 20px;
+  margin-bottom: 7vh;
   background-color: #FFF;
   min-width: fit-content;
   width: 150px;
@@ -88,6 +138,22 @@ form input:focus {
   justify-content: center;
   align-items: center;
   margin: 40px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 7vh;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  background-color: #27353E;
+}
+footer a {
+  color: #FFF;
 }
 
 * {

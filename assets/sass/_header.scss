@@ -1,0 +1,42 @@
+/* header */
+header{
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  width: 100%;
+  background-color: $main-color;
+  padding-bottom: 10px;
+  top: 0;
+  justify-content: space-between;
+  z-index: 1;
+  div h1{
+    color: white;
+    padding: 0 10px;
+    font-size: 0.9em;
+  }
+}
+.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.social a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-right: 19px;
+}
+.icons {
+  margin-top: 10px;
+  height: 90%;
+  border-radius: 10%;
+  border: none;
+}
+
+.icons:hover{
+  scale: 1.1;
+}

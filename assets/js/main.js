@@ -28,7 +28,7 @@ variables.showMore.addEventListener('click', (event) => {
   
   // if it returns a real array, create the list of images, display the update list on the DOM
   // otherwise, hide the 'show more' button;
-  getImagesDataFromAPI(variables.searchInput.value, variables.currentPage, variables.perPage)
+  getImagesDataFromAPI(variables.searchInput.value, variables.apiKey, variables.currentPage, variables.perPage)
     .then(data => {
       if (data.length > 0) {
         createListOfImages(data, variables.imagesContainer)
