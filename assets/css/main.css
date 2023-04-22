@@ -44,6 +44,10 @@ header div h1 {
   scale: 1.1;
 }
 
+#title-link {
+  text-decoration: none;
+}
+
 #search-section {
   display: flex;
   flex-direction: column;
@@ -145,7 +149,7 @@ form input:focus {
 footer {
   position: fixed;
   bottom: 0;
-  height: 7vh;
+  height: 4vh;
   left: 0;
   right: 0;
   display: flex;
