@@ -1,3 +1,7 @@
+// accessKey (unsplashAPI) / // https://unsplash.com/developers API
+
+export const apiKey = 'RIpm1cZwnI0GC--TG45KEzYEv3qQcl_0_txgvNQjrA8';
+
 //form
 export const form = document.querySelector('#search-section').querySelector('form');
 export const imagesContainer = document.querySelector('#images-container');
