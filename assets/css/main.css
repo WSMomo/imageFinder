@@ -118,6 +118,7 @@ form input:focus {
 }
 
 #show-more {
+  margin-top: 20px;
   margin-bottom: 7vh;
   background-color: #FFF;
   min-width: fit-content;
